@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    color: rgba(38, 38, 38, 1);
+    line-height: 18px;
+    font-family: sans-serif;
+}
+.page{
+    height: 100vh;
+    width: 100%;
+    background: #fafafa;
+    padding: 1rem;
+}
+.row{
+    display: flex;
+    padding: 0 2rem;
+    width: 100%;
+    max-width: 93.5rem;
+    margin: 3rem auto 0;
+}
+.col-1{
+    position: relative;
+    min-width: 46rem;
+    height: 61.8rem;
+    background-image: url("https://assets-global.website-files.com/5fac161927bf86485ba43fd0/63f491d6e8a97e3434aa6045_Screen%20Shot%202023-02-21%20at%2011.41.07.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.col-2{
+    width: 100%;
+    max-width: 40rem;
+    margin-top: 3rem;
+}
+.col-2 form{
+    background: #fff;
+    border: 2px solid #eee;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    text-align: center;
+}
+.form_input{
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border: 2px solid #eee;
+    border-radius: 0.4rem;
+}
+.form_input:focus{
+    outline: none;
+    border: 2px solid rgba(168, 168, 168, 1);
+}
+.password{
+    position: relative;
+}
+.password input{
+    width: 100%;
+}
+.cursor-pointer{
+
+    cursor: pointer;
+}
+.show_hide_text{
+    position: absolute;
+    top: 9px;
+    right: 4px;
+    font-size: 15px;
+}
+.logoContainer img{
+    width: 100%;
+    height: 100%;
+}
+form .button{
+    margin: 1rem 0 1.5rem;
+    height: 3rem;
+    border: none;
+    background: #5aa0fa;
+    color: #fff;
+    border-radius: 0.4rem;
+    font-weight: bold;
+}
+form .button:hover{
+    background: #0084ff;
+
+}
+.sept{
+    font-size: 1.3rem;
+    color: #999;
+    text-transform: uppercase;
+    margin-bottom: 2.4rem;
+    position: relative;
+}
+.sept::before,.sept::after{
+    content: "";
+    position: absolute;
+    background: #eee;
+    width: 40%;
+    height: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sept::before{
+left: 0;
+}
+.sept::after{
+right: 0;
+}
+.password_reset{
+    font-size: 1.7rem;
+    color: #003569;
+}
+.password_reset:hover,.form_footer a:hover{
+    text-decoration: underline;
+}
+.form_footer{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #262626;
+    padding: 2rem 0;
+    background: #fff;
+    border: 2px solid #eee;
+    margin: 1rem 0;
+}
+.form_footer a{
+    color: #3896f0;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
